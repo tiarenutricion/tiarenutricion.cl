@@ -7,11 +7,41 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.float{
+				position:fixed;
+				width:60px;
+				height:60px;
+				bottom:40px;
+				right:40px;
+				background-color:#25d366;
+				color:#FFF;
+				border-radius:50px;
+				text-align:center;
+			font-size:30px;
+				box-shadow: 2px 2px 3px #999;
+			z-index:100;
+			}
+			.float:hover {
+				text-decoration: none;
+				color: #25d366;
+			background-color:#fff;
+			}
+
+			.my-float{
+				margin-top:16px;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
-
+        <!-- Two <a href="https://wa.me/56978732343?text=Bienvenido%20a%20TiareNutrición.%20Escríbenos%20y%20con%20gusto%20te%20atendemos." class="float-wa" target="_blank">
+			<i class="fa fa-whatsapp" style="margin-top: 16px;"></i>
+		</a>-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<a href="https://api.whatsapp.com/send?phone=56978732343&text=Bienvenido%20a%20TiareNutrición.%20Escríbenos%20y%20con%20gusto%20te%20atendemos." class="float" target="_blank">
+		<i class="fa fa-whatsapp my-float"></i>
+		</a>
 			<section id="sidebar">
-
 				<div class="inner">
 					<span class="image fit"><img src="images/logo.png" alt="" /></span>
 					<nav>
@@ -25,9 +55,7 @@
 					</nav>
 				</div>
 			</section>
-
 			<div id="wrapper">
-
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
 							<h1>Pequeños cambios, grandes resultados.</h1>
@@ -36,7 +64,6 @@
 							</ul>
 						</div>
 					</section>
-
 					<section id="one" class="wrapper style2 spotlights">
 						<section>
 							<a href="#" class="image"><img src="images/tiaresandoval.png" alt="" data-position="center center" /></a>
@@ -51,7 +78,6 @@
 							</div>
 						</section>
 					</section>
-					
 					<section id="oneone" class="wrapper style2 spotlights">
 						<section>
 							<a href="#" class="image"><img src="images/alimentos.jpg" alt="" data-position="top center" /></a>
@@ -65,7 +91,6 @@
 								</div>
 							</div>
 						</section>
-
 						<section>
 							<a href="#" class="image"><img src="images/decisiones-conscientes.jpg" alt="" data-position="25% 25%" /></a>
 							<div class="content">
@@ -77,7 +102,6 @@
 								</div>
 							</div>
 						</section>
-
 						<section>
 							<a href="#" class="image"><img src="images/empoderamiento.jpg" alt="" data-position="25% 25%" /></a>
 							<div class="content">
@@ -89,7 +113,6 @@
 								</div>
 							</div>
 						</section>
-
 						<section>
 							<a href="#" class="image"><img src="images/huellas.jpg" alt="" data-position="25% 25%" /></a>
 							<div class="content">
@@ -100,7 +123,6 @@
 								</div>
 							</div>
 						</section>
-						
 					</section>
 
 				<!-- Two -->
@@ -149,33 +171,10 @@
 							<h2>Contacto</h2>
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Nombre</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Correo</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Mensaje</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Enviar Mensaje</a></li>
-										</ul>
-									</form>
-								</section>
-								<section>
 									<ul class="contact">
 										<li>
 											<h3>Dirección</h3>
-											<span>12345 Somewhere Road #654<br />
-											Nashville, TN 00000-0000<br />
-											USA</span>
+											<span><p><a href="https://maps.app.goo.gl/XZyPjtnwDqegpbdDA">33 Oriente 1965, Talca, Chile.</a></p>
 										</li>
 										<li>
 											<h3>Email</h3>
@@ -183,12 +182,14 @@
 										</li>
 										<li>
 											<h3>Teléfono</h3>
-											<span>+56 9 9999 9999</span>
+											<span><p><a href="https://wa.me/56978732343?text=Bienvenido%20a%20TiareNutrición.%20Escríbenos%20y%20con%20gusto%20te%20atendemos.">+56 9 7873 2343</a></p>
 										</li>
-										<li>
-											<h3>Redes Sociales</h3>
+									</ul>
+								</section>
+								<section>
+									<ul class="contact">
+										<h3>Redes Sociales</h3>
 											<ul class="icons">
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 												<li><a href="https://www.instagram.com/tiare.nutricion/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 											</ul>
